@@ -1,1 +1,83 @@
-# To-do-app
+# ✅ Todo List App
+
+A clean and minimal **To-Do List** web application built with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies.
+
+![Preview](icon.jpg)
+
+---
+
+## 📋 Features
+
+- **Add tasks** — Type a task and hit "Add" to append it to your list
+- **Complete tasks** — Click on a task to mark it as done (strikethrough + checked icon)
+- **Delete tasks** — Click the `×` button on any task to remove it
+- **Persistent storage** — Tasks are saved to `localStorage`, so they survive page refreshes and browser restarts
+
+---
+
+## 🗂️ Project Structure
+
+```
+todo-list-app/
+│
+├── index.html       # App markup and layout
+├── style.css        # Styling and visual design
+├── script.js        # App logic (add, toggle, delete, persist)
+├── icon.jpg         # Clipboard icon shown in the header
+├── checked.jpg      # Checked circle icon for completed tasks
+└── Unchecked.jpg    # Empty circle icon for pending tasks
+```
+
+---
+
+## 🚀 Getting Started
+
+No build tools or installations needed.
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/todo-list-app.git
+   ```
+
+2. **Open the app**
+   ```bash
+   cd todo-list-app
+   open index.html
+   ```
+   Or simply double-click `index.html` to open it in your browser.
+
+---
+
+## 🧠 How It Works
+
+| Action | Behavior |
+|---|---|
+| Type in the input box and click **Add** | Creates a new `<li>` element in the list |
+| Click a **task** | Toggles the `checked` CSS class (strikethrough + icon swap) |
+| Click the **× button** | Removes the task from the DOM |
+| Any change | Saves the current list HTML to `localStorage` |
+| Page load | Reads from `localStorage` and restores previous tasks |
+
+---
+
+## 🎨 Design
+
+- Background: Deep navy-to-crimson gradient (`#16166B` → `#65000B`)
+- Card: White, centered, max-width 540px with rounded corners
+- Accent color: Rose/crimson (`#C21E56`) for the Add button
+- Font: [Poppins](https://fonts.google.com/specimen/Poppins) (Google Fonts)
+- Custom circular icons for checked/unchecked task states
+
+---
+
+## 🛠️ Built With
+
+- **HTML5**
+- **CSS3** (Flexbox, CSS pseudo-elements, `localStorage`)
+- **Vanilla JavaScript** (DOM manipulation, event delegation)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).

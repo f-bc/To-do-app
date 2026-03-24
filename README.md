@@ -15,39 +15,6 @@ A clean and minimal **To-Do List** web application built with vanilla HTML, CSS,
 
 ---
 
-## 🗂️ Project Structure
-
-```
-todo-list-app/
-│
-├── index.html       # App markup and layout
-├── style.css        # Styling and visual design
-├── script.js        # App logic (add, toggle, delete, persist)
-├── icon.jpg         # Clipboard icon shown in the header
-├── checked.jpg      # Checked circle icon for completed tasks
-└── Unchecked.jpg    # Empty circle icon for pending tasks
-```
-
----
-
-## 🚀 Getting Started
-
-No build tools or installations needed.
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/todo-list-app.git
-   ```
-
-2. **Open the app**
-   ```bash
-   cd todo-list-app
-   open index.html
-   ```
-   Or simply double-click `index.html` to open it in your browser.
-
----
-
 ## 🧠 How It Works
 
 | Action | Behavior |
@@ -73,11 +40,5 @@ No build tools or installations needed.
 ## 🛠️ Built With
 
 - **HTML5**
-- **CSS3** (Flexbox, CSS pseudo-elements, `localStorage`)
-- **Vanilla JavaScript** (DOM manipulation, event delegation)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+- **CSS3** (Flexbox, CSS pseudo-elements)
+- **Vanilla JavaScript** (DOM manipulation, event delegation, `localStorage`)

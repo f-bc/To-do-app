@@ -2,7 +2,7 @@
 
 A clean and minimal **To-Do List** web application built with vanilla HTML, CSS, and JavaScript — no frameworks.
 
-                                                 ![Preview](icon.jpg)
+![Preview](icon.jpg)
 
 ---
 

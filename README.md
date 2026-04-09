@@ -1,6 +1,6 @@
 # ✅ Todo List App
 
-A clean and minimal **To-Do List** web application built with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies.
+A clean and minimal **To-Do List** web application built with vanilla HTML, CSS, and JavaScript — no frameworks.
 
 ![Preview](icon.jpg)
 
